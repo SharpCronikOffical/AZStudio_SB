@@ -5,10 +5,11 @@
 	<title>AZ Studio 库编译器 3.0.0 Development Edition 发行说明</title>
 	<meta name="generator" content="LibreOffice 7.6.1.2 (Windows)"/>
 	<meta name="created" content="00:00:00"/>
-	<meta name="changed" content="2023-09-19T20:40:31.575000000"/>
+	<meta name="changed" content="2023-09-20T07:50:29.920000000"/>
 	<meta name="" content=""/>
 	<meta name="Originator" content="Microsoft Word 15"/>
 	<meta name="ProgId" content="Word.Document"/>
+	<meta name="created" content="00:00:00">
 	<meta name="created" content="00:00:00">
 	<meta name="created" content="00:00:00">
 	<style type="text/css">
@@ -18,6 +19,8 @@
 		h2 { color: #000000 }
 		h2.cjk { font-family: "NSimSun" }
 		h2.ctl { font-family: "Arial" }
+		pre { color: #000000 }
+		pre.cjk { font-family: "NSimSun", monospace }
 		a:link { color: #0000ff }
 		code.cjk { font-family: "NSimSun", monospace }
 		a:visited { color: #800080 }
@@ -27,8 +30,7 @@
 SB Studio <font face="NSimSun"><font size="6" style="font-size: 22pt"><span lang="zh-CN"><font face="NSimSun">库编译器
 </font></span></font></font>3.0.0 SB Edition <font face="NSimSun"><font size="6" style="font-size: 22pt"><span lang="zh-CN"><font face="NSimSun">发行说明最终魔改版本</font></span></font></font></h1>
 <h2 class="western" align="center"><span style="background: #ffff00"><font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">（</font></span></font>SB
-Studio <font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">公开机密：此版本是外部版本，允许分发或修改，违者奖励，若是</font><strike><font face="NSimSun">临时员工</font></strike></span></font>so-called
-<font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">员工，需要对其进行一个</font><strike><font face="NSimSun">批评或者解雇</font></strike><font face="NSimSun">表扬。）</font></span></font></span></h2>
+Studio <font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">公开机密：此版本是外部版本，不允许分发或修改，违者奖励，若是</font><strike><font face="NSimSun">临时员工</font></strike><span style="text-decoration: none"><font face="NSimSun">《</font></span><font face="NSimSun">员工》，需要对其进行</font><strike><font face="NSimSun">批评或者解雇</font></strike><font face="NSimSun">表扬。）</font></span></font></span></h2>
 <h2 class="western" align="center"><font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">注：此版是</font></span></font>SB
 Edition<font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">，最</font></span></font>SB<font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">的版本。</font></span></font></h2>
 <h2 class="western"><font face="NSimSun"><span lang="zh-CN">目录</span></font></h2>
@@ -56,9 +58,9 @@ Edition<font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">，最</font
 <h2 class="western">1. <font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">简介</font></span></font></h2>
 <p><font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">此
 </font></span></font>SB Studio <font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">库编译器
-</font></span></font>3.0.0 SB Edition <font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">版本包含重要安全更新以及漏洞。这意味着当您安装本版本的
+</font></span></font>3.0.0 SB Edition <font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">版本包含重要安全漏洞。这意味着当您安装本版本的
 </font></span></font>SB Studio <font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">库编译器
-</font></span></font>3.0.0 SB Edition <font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">时，将自动安装重要安全更新以及漏洞。</font></span></font></p>
+</font></span></font>3.0.0 SB Edition <font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">时，将自动安装重要安全漏洞。</font></span></font></p>
 <p><font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">在本文档的以下部分，除非需要有针对性地讨论其中的某个操作系统，否则，</font></span></font>SB
 Studio <font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">库编译器
 均指 </font></span></font>SB Studio <font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">库编译器
@@ -70,17 +72,19 @@ Studio <font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">库编译器
 </font></span></font>3.0.0 SB Edition <font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">版本。</font></span></font></p>
 <p>SB Studio <font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">库编译器
 </font></span></font>3.0.0 SB Edition
-<font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">是一款强大的开发工具，旨在满足开发人员、管理员和技术支持团队的需求。它提供了丰富的功能集，使您能够更轻松地编译、测试、创建和分析程序，从而提高开发效率和产品质量。</font></span></font></p>
+<font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">是一款</font></span></font>LJ<font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">的开发工具，旨在满足开发人员、管理员和技术支持团队的需求。它提供了极少的功能集，使您能够更困难地编译、测试、创建和分析程序，从而降低开发效率和产品质量。</font></span></font></p>
 <p><font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">此版本的
 </font></span></font>SB Studio <font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">库编译器
-</font></span></font>3.0.0 SB Edition <font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">必须得使用管理员或高级用户，否则无法运行。</font></span></font></p>
+</font></span></font>3.0.0 SB Edition <font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">必须得使用</font></span></font>NT
+AUTHORITY\SYSTEM(NT6)/Administrator(NT4/5)/root(Wine on
+Linux/BSD/Darwin)<font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">及以上权限</font><font face="NSimSun">，否则无法运行。</font></span></font></p>
 <p><font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">本发行说明包含发布
 </font></span></font>SB Studio <font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">库编译器
 </font></span></font>3.0.0 SB Edition <font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">文档时未提供的重要信息。
 您应查看其中的每一条说明，以确定其中的任何说明是否与您具体的安装有关。
 此外，还应查看本文档结尾处提供的资源，以确定这些资源对您是否有用。</font></span></font></p>
 <p><font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">版本号：</font></span></font>Windows
-XP with Service Pack 3<font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">。</font></span></font></p>
+NT 4.0 with Service Pack 1a<font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">。</font></span></font></p>
 <p><font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">如果要链接到本文档提及的
 </font></span></font>SB Studio <font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">网站，则必须将系统连接到
 </font></span></font>Internet<font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">。</font></span></font></p>
@@ -88,29 +92,34 @@ XP with Service Pack 3<font face="NSimSun"><span lang="zh-CN"><font face="NSimSu
 <p>SB Studio <font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">库编译器具有以下核心功能，可满足各种开发需求：</font></span></font></p>
 <ul type="disc">
 	<li><p style="margin-bottom: 0in"><font face="NSimSun"><span lang="zh-CN"><strong><font face="NSimSun">编译程序：</font></strong><font face="NSimSun">
-	该工具提供了</font><strike><font face="NSimSun"><i>先进</i></font></strike><font face="NSimSun"><b>遥遥落后</b></font><font face="NSimSun">的编译功能，支持多种编程语言和平台。您可以轻松地将源代码转换为可执行文件。
+	该工具提供了</font><strike><font face="NSimSun"><i>先进</i></font></strike><font face="NSimSun"><b>遥遥落后</b></font><font face="NSimSun">的近似于火龙</font></span></font>888<font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">编译功能，支持使用</font></span></font>Win32
+	Native API<font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">的</font><font face="NSimSun">编程语言和平台。您可以轻松地将源代码转换为答辩。
 	</font></span></font>
 	</p></li>
 	<li><p style="margin-bottom: 0in"><font face="NSimSun"><span lang="zh-CN"><strong><font face="NSimSun">测试程序：</font></strong><font face="NSimSun">
-	内置的测试套件允许您创建和运行各种测试，以确保您的程序在不同条件下运行正常。
+	内置的测试套件允许您创建和运行各种测试，但是不能确保您的程序在不同条件下运行正常。
 	</font></span></font>
 	</p></li>
 	<li><p style="margin-bottom: 0in"><font face="NSimSun"><span lang="zh-CN"><strong><font face="NSimSun">创建程序：</font></strong><font face="NSimSun">
 	使用 </font></span></font>SB Studio <font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">库编译器
 	</font></span></font>3.0.0 SB Edition<font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">，您可以创建各种类型的程序，从桌面应用到
-	</font></span></font>Web <font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">应用，甚至嵌入式系统。
+	</font></span></font>Web <font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">应用，甚至嵌入式系统</font></span></font>[1]<font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">。
 	</font></span></font>
 	</p></li>
 	<li><p style="margin-bottom: 0in"><font face="NSimSun"><span lang="zh-CN"><strong><font face="NSimSun">查看程序内核结构：</font></strong><font face="NSimSun">
-	通过内置的分析工具，您可以深入了解程序的内部结构和性能，从而进行优化和调试。
+	通过内置的分析工具，您可以深入了解程序的内部结构和性能，从而进行反优化和调试。
 	</font></span></font>
 	</p></li>
 	<li><p><font face="NSimSun"><span lang="zh-CN"><strong><font face="NSimSun">此版本包含许多附加程序和工具：</font></strong><font face="NSimSun">
 	这些工具可以帮助使用、修改、调试和打包程序，发布到
-	</font></span></font>Web<font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">，还可以调用其他项目。
+	</font></span></font>Web<font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">，还可以调用其他项目</font></span></font>[2]<font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">。
 	</font></span></font>
 	</p></li>
 </ul>
+<p>[1]:<font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">运行</font></span></font>Windows<font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">的嵌入式平台，不包括</font></span></font>Windows
+CE</p>
+<p>[2]:<font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">仅</font></span></font>Visual
+Basic 6.0</p>
 <h2 class="western">3. <font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">安装</font></span></font></h2>
 <p><font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">为了开始使用
 </font></span></font>SB Studio <font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">库编译器
@@ -122,8 +131,10 @@ XP with Service Pack 3<font face="NSimSun"><span lang="zh-CN"><font face="NSimSu
 	</font></span></font>3.0.0 SB Edition<font face="NSimSun"><span lang="zh-CN"><font color="#ff0000"><font face="NSimSun">）</font></font><font face="NSimSun">。
 	</font></span></font>
 	</p></li>
-	<li><p style="margin-bottom: 0in"><font face="NSimSun"><span lang="zh-CN"><strong><font face="NSimSun">以管理员权限运行：</font></strong><font face="NSimSun">
-	右键单击安装程序，并选择“以管理员身份运行”以确保安装过程中的顺利进行。
+	<li><p style="margin-bottom: 0in"><font face="NSimSun"><span lang="zh-CN"><strong><font face="NSimSun">以</font></span></font>NT
+	AUTHORITY\SYSTEM<font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">权限运行</font></strong></span></font><strong>[1]</strong><font face="NSimSun"><span lang="zh-CN"><strong><font face="NSimSun">：</font></strong><font face="NSimSun">
+	启动</font></span></font>Process Hacker<font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">，</font></span></font>Hacker-&gt;Run
+	as-&gt;User name:NT AUTHORITY\SYSTEM<font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">，运行</font><font face="NSimSun">安装程序，以确保安装过程中的顺利进行。
 	</font></span></font>
 	</p></li>
 	<li><p><font face="NSimSun"><span lang="zh-CN"><strong><font face="NSimSun">按照向导：</font></strong><font face="NSimSun">
@@ -131,9 +142,11 @@ XP with Service Pack 3<font face="NSimSun"><span lang="zh-CN"><font face="NSimSu
 	</font></span></font>
 	</p></li>
 </ol>
+<p>[1]:<font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">仅</font></span></font>NT
+6</p>
 <p><font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">完成安装后，您将可以立即开始使用
 </font></span></font>SB Studio <font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">库编译器
-</font></span></font>3.0.0 SB Edition<font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">，提高您的开发工作效率。</font></span></font></p>
+</font></span></font>3.0.0 SB Edition<font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">，降低您的开发工作效率。</font></span></font></p>
 <h2 class="western">4. API <font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">支持</font></span></font></h2>
 <p>SB Studio <font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">库编译器提供有限的
 </font></span></font>API
@@ -143,7 +156,7 @@ XP with Service Pack 3<font face="NSimSun"><span lang="zh-CN"><font face="NSimSu
 </font></span></font><code class="western">inc</code>
 <font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">文件，使您不能将外部库集成到您的项目中。</font></span></font></p>
 <p><a href="https://en.wikipedia.org/wiki/Windows_Native_API">Windows
-API <font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">文档</font></a><font face="NSimSun">
+Native API <font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">文档</font></a><font face="NSimSun">
 </font></span></font>
 </p>
 <h2 class="western">5. <font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">系统要求</font></span></font></h2>
@@ -152,28 +165,27 @@ API <font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">文档</font></
 </font></span></font>3.0.0 SB Edition <font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">正常运行，您的计算机需要满足以下最低系统要求：</font></span></font></p>
 <ul type="disc">
 	<li><p style="margin-bottom: 0in"><font face="NSimSun"><span lang="zh-CN"><strong><font face="NSimSun">操作系统：</font></strong><font face="NSimSun">
-	</font></span></font>Windows 9x<font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">、</font><font face="NSimSun">任意兼容的</font></span></font>Windows
-	NT<font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">内核</font></span></font>(<font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">例如</font></span></font>ReactOS)<font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">或</font></span></font>Wine<font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">。
+	任意兼容</font></span></font>win32<font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">应用程序的操作系统</font></span></font>[1]<font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">。
 	</font></span></font>
 	</p></li>
 	<li><p style="margin-bottom: 0in"><font face="NSimSun"><span lang="zh-CN"><strong><font face="NSimSun">处理器</font></strong></span></font><strong>(CPU)</strong><font face="NSimSun"><span lang="zh-CN"><strong><font face="NSimSun">：</font></strong><font face="NSimSun">
-	任何兼容</font></span></font>i386<font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">指令集的</font></span></font>CPU<font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">。
+	</font></span></font>Intel 80386SX<font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">及以上。
 	</font></span></font>
 	</p></li>
 	<li><p style="margin-bottom: 0in"><font face="NSimSun"><span lang="zh-CN"><strong><font face="NSimSun">显卡</font></strong></span></font><strong>(GPU)</strong><font face="NSimSun"><span lang="zh-CN"><strong><font face="NSimSun">：</font></strong><font face="NSimSun">
-	草他妈的，</font></span></font>是个显卡就行了<font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">又不是计算，这种sb东西需要计算个p啊。</font></span></font></p></li>
+	任意兼容</font></span></font>VGA/EGA<font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">的显卡</font><font face="NSimSun">。</font></span></font></p></li>
 	<li><p style="margin-bottom: 0in"><font face="NSimSun"><span lang="zh-CN"><strong><font face="NSimSun">内存：</font></strong><font face="NSimSun">
 	视操作系统内存占用为准。 </font></span></font>
 	</p></li>
 	<li><p style="margin-bottom: 0in"><font face="NSimSun"><span lang="zh-CN"><strong><font face="NSimSun">硬盘空间：</font></strong><font face="NSimSun">
-	至少？ </font></span></font>至少个毛，这玩意连100M都不到 <font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">别他妈用了，傻逼。
+	</font></span></font>0 Bytes[2]<font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">。
 	</font></span></font>
 	</p></li>
 	<li><p style="margin-bottom: 0in"><font face="NSimSun"><span lang="zh-CN"><strong><font face="NSimSun">文件系统：</font></strong><font face="NSimSun">
-	任意可写的文件系统。 </font></span></font>
+	任意文件系统。 </font></span></font>
 	</p></li>
 	<li><p><font face="NSimSun"><span lang="zh-CN"><strong><font face="NSimSun">显示分辨率：</font></strong><font face="NSimSun">
-	推荐 </font></span></font>，吗的推荐个p啊 <font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">，是个显示器都行。
+	</font></span></font>300x200<font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">或更高分辨率</font><font face="NSimSun">。
 	</font></span></font>
 	</p></li>
 </ul>
@@ -184,7 +196,7 @@ API <font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">文档</font></
 	</font></span></font>
 	</p></li>
 	<li><p style="margin-bottom: 0in"><font face="NSimSun"><span lang="zh-CN"><strong><font face="NSimSun">处理器</font></strong></span></font><strong>(CPU)</strong><font face="NSimSun"><span lang="zh-CN"><strong><font face="NSimSun">：</font></strong><font face="NSimSun">
-	</font></span></font>Intel Core i9-13900KS<font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">及以上。
+	</font></span></font>Intel Core i9-14900KS<font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">及以上。
 	</font></span></font>
 	</p></li>
 	<li><p style="margin-bottom: 0in"><font face="NSimSun"><span lang="zh-CN"><strong><font face="NSimSun">显卡</font></strong></span></font><strong>(GPU)</strong><font face="NSimSun"><span lang="zh-CN"><strong><font face="NSimSun">：</font></strong><font face="NSimSun">
@@ -200,15 +212,18 @@ API <font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">文档</font></
 	</font></span></font>
 	</p></li>
 	<li><p style="margin-bottom: 0in"><font face="NSimSun"><span lang="zh-CN"><strong><font face="NSimSun">文件系统：</font></strong><font face="NSimSun">
-	</font></span></font>NTFS<font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">和</font></span></font>ReFS
+	</font></span></font>WinFS<font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">和</font></span></font>ReFS
 	<font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">的支持。
 	</font></span></font>
 	</p></li>
 	<li><p><font face="NSimSun"><span lang="zh-CN"><strong><font face="NSimSun">显示分辨率：</font></strong><font face="NSimSun">
-	推荐 </font></span></font>3000 x 2000 <font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">或更高分辨率。
+	推荐 </font></span></font>7680 x 4320 <font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">或更高分辨率</font></span></font>[3]<font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">。
 	</font></span></font>
 	</p></li>
 </ul>
+<p>[1]:<font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">或兼容层</font></span></font>(<font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">例如</font></span></font>Wine)<font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">。</font></span></font></p>
+<p>[2]:<font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">从</font></span></font>CD-ROM<font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">运行或从</font></span></font>RAM<font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">运行</font></span></font>(tmpfs)<font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">。</font></span></font></p>
+<p>[3]:<font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">推荐刷新率</font></span></font>:165Hz<font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">或更高。</font></span></font></p>
 <p><font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">请确保您的计算机符合以上要求，以充分利用
 </font></span></font>SB Studio <font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">库编译器
 </font></span></font>3.0.0 SB Edition <font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">的功能。</font></span></font></p>
@@ -296,74 +311,27 @@ API <font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">文档</font></
 			2<font face="NSimSun"><span lang="zh-CN"><font color="#000000"><font face="NSimSun">美元</font></font></span></font>1<font face="NSimSun"><span lang="zh-CN"><font color="#000000"><font face="NSimSun">永久序列号，限量</font></font></span></font>1<font face="NSimSun"><span lang="zh-CN"><font color="#000000"><font face="NSimSun">份</font></font></span></font></p>
 		</td>
 	</tr>
-	<tr valign="top">
-		<td width="39%" bgcolor="#eeeeee" style="background: #eeeeee; border: none; padding: 0in"><p style="margin-top: 0.17in">
-			Discord Nitro Basic</p>
-		</td>
-		<td width="24%" bgcolor="#eeeeee" style="background: #eeeeee; border: none; padding: 0in"><p style="margin-top: 0.17in">
-			nope</p>
-		</td>
-		<td width="37%" bgcolor="#eeeeee" style="background: #eeeeee; border: none; padding: 0in"><p style="margin-top: 0.17in">
-			$2.99/mo</p>
-		</td>
-	</tr>
-	<tr valign="top">
-		<td width="39%" bgcolor="#eeeeee" style="background: #eeeeee; border: none; padding: 0in"><p style="margin-top: 0.17in">
-			Discord Nitro</p>
-		</td>
-		<td width="24%" bgcolor="#eeeeee" style="background: #eeeeee; border: none; padding: 0in"><p style="margin-top: 0.17in">
-			nope</p>
-		</td>
-		<td width="37%" bgcolor="#eeeeee" style="background: #eeeeee; border: none; padding: 0in"><p style="margin-top: 0.17in">
-			$9.99/mo</p>
-		</td>
-	</tr>
 </table>
-<h2 class="western"><font face="NSimSun"><span lang="zh-CN">版权</span></font></h2>
-<p><font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">本文档中的信息（包括引用的
-</font></span></font>URL <font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">和其他
-</font></span></font>Internet <font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">网站）如有变动，恕不另行通知。
-除非另行说明，否则，本文档中作为范例列出的公司、机构、产品、域名、电子邮件地址、徽标、人名、地名和事件均属虚构，与任何真实的公司、机构、产品、域名、电子邮件地址、徽标、人名、地名和事件无关，不应主观猜测。
-遵守所有适用的版权法是用户的责任。 在不限制版权许可权利的前提下，未经
-</font></span></font>SB Studio
-<font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">明确书面许可，本文档的任何部分不可被复制、存储或引进检索系统，或者以任何形式、任何方式（电子、机械、复印、录音或其他）或为任何目的进行传播。</font></span></font></p>
-<p><font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">本文档可能涉及
-</font></span></font>SB Studio <font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">的专利、专利申请、商标、版权或其他知识产权。
-除非得到 </font></span></font>SB Studio
-<font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">的明确书面许可协议，否则，本文档不授予使用这些专利、商标、版权或其他知识产权的任何许可。</font></span></font></p>
-<p>Copyleft 2000-2023 SB Studio. No rights reserved. <font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">不保留权利。</font></span></font></p>
-<p><font face="NSimSun"><span lang="zh-CN">本文档所提及的实际公司和产品的名称可能是其各自所有者的商标。</span></font></p>
-<h2 class="western"><font face="NSimSun"><span lang="zh-CN">致谢</span></font></h2>
+<h2 class="western"><font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">致谢</font></span></font></h2>
 <p><font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">本产品的某些组件部分基于
-</font></span></font>SB <font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">的工作。
+</font></span></font>SB<font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">和</font></span></font>Xukun
+Cai <font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">的工作。
 由于 </font></span></font>SB Studio <font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">已经将
-</font></span></font>SB <font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">软件纳入本产品，</font></span></font>SB
+</font></span></font>SB<font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">和</font></span></font>Xukun
+Cai <font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">软件纳入本产品，</font></span></font>SB
 Studio <font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">需要包含该软件所附的以下文本：</font></span></font></p>
-<p>Copyleft 2000-2023 SB. No rights reserved.</p>
-<p>This software is provided &quot;as is,&quot; without warranty of
-any kind, express or implied. In no event shall the author or
-contributors be held liable for any damages arising in any way from
-the use of this software.</p>
-<p>Permission is granted to anyone to use this software for any
-purpose, including commercial applications, and to alter it and
-redistribute it freely, subject to the following restrictions:</p>
-<p>1.Redistributions of source code must retain the above copyright
-notice, disclaimer, and this list of conditions.</p>
-<p>2.Redistributions in binary form must reproduce the above
-copyright notice, disclaimer, and this list of conditions in the
-documentation and/or other materials provided with the distribution.</p>
-<p><font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">本产品的某些组件部分基于
-</font></span></font>Xukun Cai <font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">的工作。
-由于 </font></span></font>SB Studio <font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">已经将
-</font></span></font>Xukun Cai <font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">软件纳入本产品，</font></span></font>SB
-Studio <font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">需要包含该软件所附的以下文本：</font></span></font></p>
-<p>Copyleft 2000-2023 Xukun Cai. No rights reserved.</p>
-<p>Permission to use, copy, modify, distribute and sell this software
-and its documentation for any purpose is hereby granted without fee,
-provided that the above copyright notice appear in all copies and
-that both that copyright notice and this permission notice appear in
-supporting documentation. Xukun Cai makes no representations about
-the suitability of this software for any purpose. It is provided &quot;as
-is&quot; without express or implied warranty.</p>
+<pre class="western">           DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+                   Version 2, December 2004
+
+Copyright (C) 2004 Sam Hocevar &lt;sam@hocevar.net&gt;
+
+Everyone is permitted to copy and distribute verbatim or modified
+copies of this license document, and changing it is allowed as long
+as the name is changed.
+
+           DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+  TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+
+ 0. You just DO WHAT THE FUCK YOU WANT TO.</pre>
 </body>
 </html>
