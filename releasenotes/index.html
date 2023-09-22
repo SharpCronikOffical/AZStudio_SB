@@ -5,18 +5,10 @@
 	<title>SB Studio Library Compiler 3.0.0 SB Edition Release Notes</title>
 	<meta name="generator" content="LibreOffice 7.6.1.2 (Windows)"/>
 	<meta name="created" content="00:00:00"/>
-	<meta name="changed" content="2023-09-22T16:46:57.201000000"/>
+	<meta name="changed" content="2023-09-22T19:23:35.994000000"/>
 	<meta name="" content=""/>
 	<meta name="Originator" content="Microsoft Word 15"/>
 	<meta name="ProgId" content="Word.Document"/>
-	<meta name="created" content="00:00:00">
-	<meta name="created" content="00:00:00">
-	<meta name="created" content="00:00:00">
-	<meta name="created" content="00:00:00">
-	<meta name="created" content="00:00:00">
-	<meta name="created" content="00:00:00">
-	<meta name="created" content="00:00:00">
-	<meta name="created" content="00:00:00">
 	<meta name="created" content="00:00:00">
 	<meta name="created" content="00:00:00">
 	<meta name="created" content="00:00:00">
@@ -30,59 +22,55 @@
 		pre { color: #000000 }
 		pre.cjk { font-family: "NSimSun", monospace }
 		a:link { color: #0000ff }
-		code.cjk { font-family: "NSimSun", monospace }
 		a:visited { color: #800080 }
 	</style>
 </head>
 <body lang="en-US" text="#000000" link="#0000ff" vlink="#800080" dir="ltr"><h1 align="center">
-<font face="Consolas, monospace">SB Studio </font><font face="Consolas, monospace"><font size="6" style="font-size: 22pt"><span lang="zh-CN">库编译器
-</span></font></font><font face="Consolas, monospace">3.0.0 SB
-Edition </font><font face="Consolas, monospace"><font size="6" style="font-size: 22pt"><span lang="zh-CN">发行说明</span></font></font></h1>
-<h1 align="center"><font face="Consolas, monospace">SB Studio Library
-Compiler 3.0.0 SB Edition Release Notes</font></h1>
-<h2 class="western" align="center"><font color="#ff0000"><span style="background: #ffff00"><font face="Consolas, monospace"><span lang="zh-CN">（</span></font><font face="Consolas, monospace">SB
-Studio </font><font face="Consolas, monospace"><span lang="zh-CN">声明：此版本遵循</span></font><font face="Consolas, monospace">GPLv3</font><font face="Consolas, monospace"><span lang="zh-CN">，允许分发或修改。）</span></font></span></font></h2>
-<h2 class="western" align="center"><font face="Consolas, monospace"><span lang="zh-CN"><span style="font-weight: normal">注：此版是</span></span></font><font face="Consolas, monospace"><i><b>SB
-Edition</b></i></font><font face="Consolas, monospace"><span lang="zh-CN"><span style="font-weight: normal">，最</span></span></font><font face="Consolas, monospace"><span style="font-weight: normal">SB</span></font><font face="Consolas, monospace"><span lang="zh-CN"><span style="font-weight: normal">的版本</span>。</span></font></h2>
-<h2 class="western"><font face="NSimSun"><span lang="zh-CN">目录</span></font></h2>
+<font face="Consolas, monospace">SB Studio Library Compiler 3.0.0 SB
+Edition Release Notes</font></h1>
+<h2 class="western" align="center"><font color="#ff0000"><span style="background: #ffff00"><font face="NSimSun"><span lang="zh-CN"><font face="Consolas, monospace">（</font></span></font><font face="Consolas, monospace">This
+version follows GPLv3 and allows distribution or modification.</font><font face="NSimSun"><span lang="zh-CN"><font face="Consolas, monospace">）</font></span></font></span></font></h2>
+<h2 class="western" align="center"><font face="Consolas, monospace">This
+is <i><b>SB Edition,the Sbest version.</b></i></font></h2>
+<h2 class="western"><font face="Consolas, monospace">Contents</font></h2>
 <ul type="disc">
-	<li><p style="margin-bottom: 0in"><a href="#introduction">1. <font face="新宋体"><span lang="zh-CN"><font face="NSimSun">简介</font></a><font face="新宋体">
-	</font></span></font>
+	<li><p style="margin-bottom: 0in"><font face="Consolas, monospace"><a href="#introduction">1.
+	Introduction</a> </font>
 	</p></li>
-	<li><p style="margin-bottom: 0in"><a href="#core-features">2. <font face="新宋体"><span lang="zh-CN"><font face="NSimSun">核心功能</font></a><font face="新宋体">
-	</font></span></font>
+	<li><p style="margin-bottom: 0in"><font face="Consolas, monospace"><a href="#core-features">2.
+	Core Features</a> </font>
 	</p></li>
-	<li><p style="margin-bottom: 0in"><a href="#installation">3. <font face="新宋体"><span lang="zh-CN"><font face="NSimSun">安装</font></a><font face="新宋体">
-	</font></span></font>
+	<li><p style="margin-bottom: 0in"><font face="Consolas, monospace"><a href="#installation">3.
+	Installation</a> </font>
 	</p></li>
-	<li><p style="margin-bottom: 0in"><a href="#api-support">4. API <font face="新宋体"><span lang="zh-CN"><font face="NSimSun">支持</font></a><font face="新宋体">
-	</font></span></font>
+	<li><p style="margin-bottom: 0in"><font face="Consolas, monospace"><a href="#api-support">4.
+	API Support</a> </font>
 	</p></li>
-	<li><p style="margin-bottom: 0in"><a href="#system-requirements">5.
-	<font face="新宋体"><span lang="zh-CN"><font face="NSimSun">系统要求</font></a><font face="新宋体">
-	</font></span></font>
+	<li><p style="margin-bottom: 0in"><font face="Consolas, monospace"><a href="#system-requirements">5.
+	System Requirements</a> </font>
 	</p></li>
-	<li><p><a href="#release-notes">6. <font face="新宋体"><span lang="zh-CN"><font face="NSimSun">版本说明</font></a><font face="新宋体">
-	</font></span></font>
+	<li><p><font face="Consolas, monospace"><a href="#release-notes">6.
+	Release Notes</a> </font>
 	</p></li>
 </ul>
-<h2 class="western"><a href="#introduction">1. <font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">简介</font></a></span></font></h2>
-<p><font face="新宋体"><span lang="zh-CN"><font face="NSimSun">此
-</font></span></font>SB Studio <font face="新宋体"><span lang="zh-CN"><font face="NSimSun">库编译器
-</font></span></font>3.0.0 SB Edition <font face="新宋体"><span lang="zh-CN"><font face="NSimSun">版本包含重要漏洞。这意味着当您安装本版本的
-</font></span></font>SB Studio <font face="新宋体"><span lang="zh-CN"><font face="NSimSun">库编译器
-</font></span></font>3.0.0 SB Edition <font face="新宋体"><span lang="zh-CN"><font face="NSimSun">时，将自动安装重要漏洞。</font></span></font></p>
-<p><font color="#ff0000"><font face="新宋体"><span lang="zh-CN"><font face="NSimSun">在本文档的以下部分，除非需要有针对性地讨论其中的某个版本，否则，</font></span></font>SB
-Studio <font face="新宋体"><span lang="zh-CN"><font face="NSimSun">库编译器
-均指 </font></span></font>SB Studio <font face="新宋体"><span lang="zh-CN"><font face="NSimSun">库编译器
-</font></span></font><font face="Consolas, monospace"><i><b>3.0.0 SB
-Edition</b></i></font> <font face="新宋体"><span lang="zh-CN"><font face="NSimSun">而不是
-</font></span></font>SB Studio <font face="新宋体"><span lang="zh-CN"><font face="NSimSun">库编译器
-</font></span></font><font face="Consolas, monospace"><i><b>3.0.0</b></i></font><font face="新宋体"><span lang="zh-CN"><font face="NSimSun">。</font></span></font></font></p>
-<p><font color="#ff0000"><font face="新宋体"><span lang="zh-CN"><font face="NSimSun">除非特别指出，否则，本发行说明中包含的所有信息同时适用于
-</font></span></font>SB Studio <font face="新宋体"><span lang="zh-CN"><font face="NSimSun">库编译器
-</font></span></font>3.0.0 SB Edition <font face="新宋体"><span lang="zh-CN"><font face="NSimSun">版本。</font></span></font></font></p>
+<h2 class="western"><a href="#introduction"><font face="Consolas, monospace">1.
+Introduction</font></a></h2>
+<p><font face="Consolas, monospace">This SB Studio Library Compiler
+3.0.0 SB Edition contains important bugs.That means when you install
+SB Studio Library Compiler 3.0.0 SB Edition,it will automatically
+important bugs.</font></p>
+<p><font color="#ff0000"><font face="Consolas, monospace">In the
+following sections of this document, unless it is necessary to
+specifically discuss a particular version, &quot;SB Studio Library
+Compiler&quot; refers to SB Studio Library Compiler <i><b>3.0.0 SB
+Edition</b></i>, not SB Studio Library Compiler <i><b>3.0.0</b></i>. </font></font>
+</p>
+<p><font color="#ff0000"><font face="Consolas, monospace">Unless
+otherwise specified, all information contained in this release note
+applies to both SB Studio Library Compiler 3.0.0 SB Edition and SB
+Studio Library Compiler 3.0.0.</font></font></p>
 <p><img src="images/screenshot1.png" name="Image1" align="left" width="686" height="479" border="0"/>
+<br clear="left"/>
 <br clear="left"/>
 <font color="#808080"><font face="Consolas, monospace"><i>SB
 Studio Library Compiler </i></font></font><font color="#000000"><font face="Consolas, monospace"><i><b>3.0.0
@@ -90,264 +78,316 @@ SB Edition</b></i></font></font><font color="#808080"> </font><font color="#8080
 on Windows 10</i></font></font></p>
 <p><img src="images/screenshot3.png" name="Image3" align="left" width="692" height="473" border="0"/>
 <br clear="left"/>
+<br clear="left"/>
 <font color="#808080"><font face="Consolas, monospace"><i>SB
 Studio Library Compiler </i></font></font><font color="#000000"><font face="Consolas, monospace"><i><b>3.0.0</b></i></font></font><font color="#808080">
 </font><font color="#808080"><font face="Consolas, monospace"><i>running
 on Windows 2000</i></font></font></p>
-<p>SB Studio <font face="新宋体"><span lang="zh-CN"><font face="NSimSun">库编译器
-</font></span></font>3.0.0 SB Edition
-<font face="新宋体"><span lang="zh-CN"><font face="NSimSun">是一款</font></span></font>SB<font face="新宋体"><span lang="zh-CN"><font face="NSimSun">的开发工具，旨在逼疯开发人员、管理员和技术支持团队。它不提供功能集，使您能够更困难地编译、测试、创建和分析程序，从而降低开发效率和产品质量。</font></span></font></p>
-<p><font face="新宋体"><span lang="zh-CN"><font face="NSimSun">此版本的
-</font></span></font>SB Studio <font face="新宋体"><span lang="zh-CN"><font face="NSimSun">库编译器
-</font></span></font>3.0.0 SB Edition <font face="新宋体"><span lang="zh-CN"><font face="NSimSun">必须使用</font></span></font>NT
-AUTHORITY\SYSTEM(NT6)/Administrator(NT4/5)<font face="新宋体"><span lang="zh-CN"><font face="NSimSun">及以上权限运行，否则无法运行。</font></span></font></p>
-<p><font face="新宋体"><span lang="zh-CN"><font face="NSimSun">本发行说明包含发布
-</font></span></font>SB Studio <font face="新宋体"><span lang="zh-CN"><font face="NSimSun">库编译器
-</font></span></font>3.0.0 SB Edition <font face="新宋体"><span lang="zh-CN"><font face="NSimSun">文档时未提供的重要信息。
-您应查看其中的每一条说明，以确定其中的任何说明是否与您具体的安装有关。
-此外，还应查看本文档结尾处提供的资源，以确定这些资源对您是否有用。</font></span></font></p>
-<p><font face="新宋体"><span lang="zh-CN"><font face="NSimSun">版本号：</font></span></font>SB
-Studio <font face="新宋体"><span lang="zh-CN"><font face="NSimSun">库编译器
-</font></span></font>3.0.0 SB Edition<font face="新宋体"><span lang="zh-CN"><font face="NSimSun">。</font></span></font></p>
-<p><font face="新宋体"><span lang="zh-CN"><font face="NSimSun">如果要链接到本文档提及的
-</font></span></font>SB Studio <font face="新宋体"><span lang="zh-CN"><font face="NSimSun">网站，则必须将系统连接到
-</font></span></font>Internet<font face="新宋体"><span lang="zh-CN"><font face="NSimSun">。</font></span></font></p>
-<h2 class="western"><a href="#core-features">2. <font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">核心功能</font></a></span></font></h2>
-<p>SB Studio <font face="新宋体"><span lang="zh-CN"><font face="NSimSun">库编译器具有以下核心功能，不可满足任何开发需求：</font></span></font></p>
+<p><font face="Consolas, monospace">SB Studio Library Compiler 3.0.0
+SB Edition is a SB development tool designed to drive developers,
+administrators, and technical support teams crazy. It provides a
+feature set that makes it harder for you to compile, test, create,
+and analyze programs, thereby reducing development efficiency and
+product quality. </font>
+</p>
+<p><font face="Consolas, monospace">This version of SB Studio Library
+Compiler 3.0.0 SB Edition must be run with NT AUTHORITY\SYSTEM (NT6)
+/ Administrator (NT4/5) or higher privileges, or it won't run. </font>
+</p>
+<p><font face="Consolas, monospace">This release note contains
+important information not provided when releasing SB Studio Library
+Compiler 3.0.0 SB Edition documentation. You should review each
+instruction to determine if any of them are relevant to your specific
+installation. Additionally, you should check the resources provided
+at the end of this document to determine their relevance to your
+needs. </font>
+</p>
+<p><font face="Consolas, monospace">Version: SB Studio Library
+Compiler 3.0.0 SB Edition. </font>
+</p>
+<p><font face="Consolas, monospace">If you wish to link to the SB
+Studio website mentioned in this document, you must be connected to
+the Internet. </font>
+</p>
+<h2 class="western"><a href="#core-features"><font face="Consolas, monospace">2.
+</font><font face="Consolas, monospace">Core Features</font></a></h2>
+<p><font face="Consolas, monospace">SB Studio Library Compiler has
+the following core features that won't satisfy any development
+requirements: </font>
+</p>
 <ul type="disc">
-	<li><p style="margin-bottom: 0in"><font face="新宋体"><span lang="zh-CN"><strong><font face="NSimSun">编译程序：</font></strong><font face="新宋体">
-	</font><font face="NSimSun">该工具提供了</font><strike><font face="NSimSun"><i>先进</i></font></strike><font face="NSimSun"><b>遥遥落后</b></font><font face="NSimSun">的编译功能，只支持使用</font></span></font>Win32
-	Native API<font face="新宋体"><span lang="zh-CN"><font face="NSimSun">的编程语言和平台。您可以轻松地将源代码转换为答辩。
-	</font></span></font>
+	<li><p style="margin-bottom: 0in"><strong><font face="Consolas, monospace">Compile
+	Programs</font></strong><font face="新宋体"><span lang="zh-CN"><strong><font face="Consolas, monospace">：</font></strong><font face="Consolas, monospace">
+	</font></span></font><font face="Consolas, monospace">This tool
+	provides outdated compilation capabilities, supporting only
+	programming languages and platforms using the Win32 Native API. You
+	can easily transform source code into </font><font face="Consolas, monospace">shit</font><font face="Consolas, monospace">.
+	 </font>
 	</p></li>
-	<li><p style="margin-bottom: 0in"><font face="新宋体"><span lang="zh-CN"><strong><font face="NSimSun">测试程序：</font></strong><font face="新宋体">
-	</font><font face="NSimSun">内置的测试套件允许您创建和运行各种测试，但是不能确保您的程序在不同条件下运行正常。
-	</font></span></font>
+	<li><p style="margin-bottom: 0in"><strong><font face="Consolas, monospace">Test
+	Programs</font></strong><font face="新宋体"><span lang="zh-CN"><strong><font face="Consolas, monospace">：</font></strong><font face="Consolas, monospace">
+	</font></span></font><font face="Consolas, monospace">The built-in
+	test suite allows you to create and run various tests, but it cannot
+	guarantee that your program will work under different conditions.  </font>
 	</p></li>
-	<li><p style="margin-bottom: 0in"><font face="新宋体"><span lang="zh-CN"><strong><font face="NSimSun">创建程序：</font></strong><font face="新宋体">
-	</font><font face="NSimSun">使用 </font></span></font>SB Studio
-	<font face="新宋体"><span lang="zh-CN"><font face="NSimSun">库编译器
-	</font></span></font>3.0.0 SB Edition<font face="新宋体"><span lang="zh-CN"><font face="NSimSun">，您可以创建各种类型的程序，从桌面应用到
-	</font></span></font>Web <font face="新宋体"><span lang="zh-CN"><font face="NSimSun">应用，甚至嵌入式系统</font></span></font>[1]<font face="新宋体"><span lang="zh-CN"><font face="NSimSun">。
-	</font></span></font>
+	<li><p style="margin-bottom: 0in"><span style="display: inline-block; border: none; padding: 0in"><font face="Consolas, monospace"><strong>Create
+	Programs</span></font></strong><strong><font face="Consolas, monospace">
+	</font><font face="新宋体"><span lang="zh-CN"><font face="Consolas, monospace">：</font></strong><font face="Consolas, monospace">
+	</font></span></font><font face="Consolas, monospace">With SB Studio
+	Library Compiler 3.0.0 SB Edition, you can create various types of
+	programs, from desktop applications to web applications and even
+	embedded systems[1].</font></p></li>
+	<li><p style="margin-bottom: 0in"><span style="display: inline-block; border: none; padding: 0in"><font face="Consolas, monospace"><strong>View
+	Program Structure</span></font></strong><strong><font face="Consolas, monospace">
+	</font><font face="新宋体"><span lang="zh-CN"><font face="Consolas, monospace">：</font></strong><font face="Consolas, monospace">
+	</font></span></font><font face="Consolas, monospace">Using built-in
+	analysis tools, you can dive deep into the internal structure and
+	performance of your program for the purpose of count</font><font face="Consolas, monospace">er-</font><font face="Consolas, monospace">optimization
+	and debugging.  </font>
 	</p></li>
-	<li><p style="margin-bottom: 0in"><font face="新宋体"><span lang="zh-CN"><strong><font face="NSimSun">查看程序内核结构：</font></strong><font face="新宋体">
-	</font><font face="NSimSun">通过内置的分析工具，您可以深入了解程序的内部结构和性能，从而进行反优化和调试。
-	</font></span></font>
-	</p></li>
-	<li><p><font face="新宋体"><span lang="zh-CN"><strong><font face="NSimSun">此版本包含许多附加程序和工具：</font></strong><font face="新宋体">
-	</font><font face="NSimSun">这些工具可以帮助使用、修改、调试和打包程序，发布到
-	</font></span></font>Web<font face="新宋体"><span lang="zh-CN"><font face="NSimSun">，还可以调用其他项目</font></span></font>[2]<font face="新宋体"><span lang="zh-CN"><font face="NSimSun">。
-	</font></span></font>
+	<li><p><strong><font face="Consolas, monospace">M</font></strong><strong><font face="Consolas, monospace">any
+	additional programs and tools </font><font face="新宋体"><span lang="zh-CN"><font face="Consolas, monospace">：</font></strong><font face="Consolas, monospace">
+	</font></span></font><font face="Consolas, monospace">T</font><font face="Consolas, monospace">hese
+	tools can help you use, modify, debug, and package programs, publish
+	to the web, and even </font><font face="Consolas, monospace">call</font><font face="Consolas, monospace">
+	other projects[2]. </font>
 	</p></li>
 </ul>
-<p>[1]:<font face="新宋体"><span lang="zh-CN"><font face="NSimSun">运行</font></span></font>Windows<font face="新宋体"><span lang="zh-CN"><font face="NSimSun">的嵌入式平台，不包括</font></span></font>Windows
-CE</p>
-<p>[2]:<font face="新宋体"><span lang="zh-CN"><font face="NSimSun">仅</font></span></font>Visual
-Basic 6.0</p>
-<h2 class="western"><a href="#installation">3. <font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">安装</font></a></span></font></h2>
-<p><font face="新宋体"><span lang="zh-CN"><font face="NSimSun">为了开始使用
-</font></span></font>SB Studio <font face="新宋体"><span lang="zh-CN"><font face="NSimSun">库编译器
-</font></span></font>3.0.0 SB Edition<font face="新宋体"><span lang="zh-CN"><font face="NSimSun">，您需要按照以下步骤进行安装：</font></span></font></p>
+<p><font face="Consolas, monospace">[1]: Running Windows on an
+embedded platform, excluding Windows CE. </font>
+</p>
+<p><font face="Consolas, monospace">[2]: Only Visual Basic 6.0.</font></p>
+<h2 class="western"><a href="#installation"><font face="Consolas, monospace">3.
+Installation</font></a></h2>
+<p><font face="Consolas, monospace">To begin using SB Studio Library
+Compiler 3.0.0 SB Edition, follow these steps: </font>
+</p>
 <ol>
-	<li><p style="margin-bottom: 0in"><font face="新宋体"><span lang="zh-CN"><strong><font face="NSimSun">下载安装程序：</font></strong><font face="新宋体">
-	</font><font face="NSimSun">请访问我们的官方网站（</font></span></font><a href="https://azstudio.xyz/">https://azstudio.xyz/</a><font face="新宋体"><span lang="zh-CN"><font face="NSimSun">），下载最新的安装程序</font><font color="#ff0000"><font face="NSimSun">（注意：不适用该版本的</font></font><font face="新宋体">
-	</font></span></font>SB Studio <font face="新宋体"><span lang="zh-CN"><font color="#ff0000"><font face="NSimSun">库编译器</font></font><font face="新宋体">
-	</font></span></font>3.0.0 SB Edition<font face="新宋体"><span lang="zh-CN"><font color="#ff0000"><font face="NSimSun">）</font></font><font face="NSimSun">。
-	</font></span></font>
+	<li><p style="margin-bottom: 0in"><span style="display: inline-block; border: none; padding: 0in"><font face="Consolas, monospace"><strong>Download
+	the Installer:</span></font></strong><font face="Consolas, monospace">
+	Visit our official website (</font><span style="display: inline-block; border: none; padding: 0in"><font face="Consolas, monospace"><a href="https://azstudio.xyz/" target="_blank">https://azstudio.xyz/</span></font></a><font face="Consolas, monospace">)
+	and download the latest installer.</font><font color="#ff0000"><font face="Consolas, monospace">(note:
+	not applicable to this version of SB Studio Library Compiler 3.0.0
+	SB Edition). </font></font>
 	</p></li>
-	<li><p style="margin-bottom: 0in"><font face="新宋体"><span lang="zh-CN"><strong><font face="NSimSun">以</font></strong></span></font><strong>NT
-	AUTHORITY\SYSTEM</strong><font face="新宋体"><span lang="zh-CN"><strong><font face="NSimSun">权限运行</font></strong></span></font><strong>[1]</strong><font face="新宋体"><span lang="zh-CN"><strong><font face="NSimSun">：</font></strong><font face="新宋体">
-	</font><font face="NSimSun">启动</font></span></font>Windows
-	PE<font face="新宋体"><span lang="zh-CN"><font face="NSimSun">，运行安装程序，以确保安装过程中的顺利进行。
-	</font></span></font>
+	<li><p style="margin-bottom: 0in"><span style="display: inline-block; border: none; padding: 0in"><font face="Consolas, monospace"><strong>Run
+	with NT AUTHORITY\SYSTEM Privileges[1]:</span></font></strong><font face="Consolas, monospace">
+	Start Windows PE and run the installer to ensure a </font><font face="Consolas, monospace">normal</font><font face="Consolas, monospace">
+	installation process. </font>
 	</p></li>
-	<li><p><font face="新宋体"><span lang="zh-CN"><strong><font face="NSimSun">按照向导：</font></strong><font face="新宋体">
-	</font><font face="NSimSun">安装程序将引导您完成安装过程，您可以根据需要进行自定义设置。
-	</font></span></font>
+	<li><p><span style="display: inline-block; border: none; padding: 0in"><font face="Consolas, monospace"><strong>Follow
+	the Wizard</span></font></strong><font face="新宋体"><span lang="zh-CN"><strong><font face="Consolas, monospace">：</font></strong></span></font><font face="Consolas, monospace">The
+	installer will guide you through the installation process, allowing
+	for custom settings as needed.  </font>
 	</p></li>
 </ol>
-<p>[1]:<font face="新宋体"><span lang="zh-CN"><font face="NSimSun">仅</font></span></font>NT
-6</p>
-<p><font face="新宋体"><span lang="zh-CN"><font face="NSimSun">完成安装后，您将可以立即开始使用
-</font></span></font>SB Studio <font face="新宋体"><span lang="zh-CN"><font face="NSimSun">库编译器
-</font></span></font>3.0.0 SB Edition<font face="新宋体"><span lang="zh-CN"><font face="NSimSun">，降低您的开发工作效率。</font></span></font></p>
-<h2 class="western"><a href="#api-support">4. API <font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">支持</font></a></span></font></h2>
-<p>SB Studio <font face="新宋体"><span lang="zh-CN"><font face="NSimSun">库编译器提供有限的
-</font></span></font>API
-<font face="新宋体"><span lang="zh-CN"><font face="NSimSun">支持，使您不能够扩展和定制工具的功能。我们还提供了大量的反例和屎山，以帮助您放弃这些功能。无论您是初学者还是经验丰富的开发人员，都可以被我们的
-</font></span></font>API <font face="新宋体"><span lang="zh-CN"><font face="NSimSun">支持整吐。</font></span></font></p>
-<p><font face="新宋体"><span lang="zh-CN"><font face="NSimSun">此外，我们不支持
-</font></span></font><code class="western">inc</code>
-<font face="新宋体"><span lang="zh-CN"><font face="NSimSun">文件，使您不能将外部库集成到您的项目中。</font></span></font></p>
-<p><a href="https://en.wikipedia.org/wiki/Windows_Native_API">Windows
-Native API <font face="新宋体"><span lang="zh-CN"><font face="NSimSun">文档</font></a><font face="新宋体">
-</font></span></font>
+<p><font face="Consolas, monospace">[1]: Only NT 6.</font></p>
+<p><font face="Consolas, monospace">After completing the
+installation, you can start using SB Studio Library Compiler 3.0.0 SB
+Edition immediately to decrease your development efficiency. </font>
+</p>
+<h2 class="western"><a href="#api-support"><font face="Consolas, monospace">4.
+API </font><font face="Consolas, monospace">Support</font></a></h2>
+<p><font face="Consolas, monospace">SB Studio Library Compiler offers
+limited API support, preventing you from extending and customizing
+the tool's functionality. We also provide a plethora of
+counter-examples and garbage to help you give up on these features.
+Whether you're a beginner or an experienced developer, our API
+support will make you vomit.</font></p>
+<p><font face="Consolas, monospace">Additionally, we do not support
+&quot;inc&quot; files, preventing you from integrating external
+libraries into your projects. </font>
+</p>
+<p><a href="https://en.wikipedia.org/wiki/Windows_Native_API"><font face="Consolas, monospace">Windows
+Native API Documentation</font></a><font face="Consolas, monospace"> </font>
 </p>
 <p><img src="images/screenshot2.png" name="Image2" align="left" width="462" height="133" border="0"/>
 <br clear="left"/>
 <font color="#808080"><font face="Consolas, monospace"><i>The
 Helloworld program written by SB Sudio Library Compiler 3.0.0 SB
 Edition can’t be run in Win32 mode</i></font></font></p>
-<h2 class="western"><a href="#system-requirements">5. <font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">系统要求</font></a></span></font></h2>
-<p><font face="新宋体"><span lang="zh-CN"><font face="NSimSun">为了确保
-</font></span></font>SB Studio <font face="新宋体"><span lang="zh-CN"><font face="NSimSun">库编译器
-</font></span></font>3.0.0 SB Edition <font face="新宋体"><span lang="zh-CN"><font face="NSimSun">正常运行，您的计算机需要满足以下最低系统要求：</font></span></font></p>
+<h2 class="western"><a href="#system-requirements"><font face="Consolas, monospace">5.
+Syst</font><font face="Consolas, monospace">em Requirements</font></a></h2>
+<p><font face="Consolas, monospace">To ensure SB Studio Library
+Compiler 3.0.0 SB Edition runs smoothly on your computer, your system
+must meet the following minimum system requirements: </font>
+</p>
 <ul type="disc">
-	<li><p style="margin-bottom: 0in"><font face="新宋体"><span lang="zh-CN"><strong><font face="NSimSun">操作系统：</font></strong><font face="新宋体">
-	</font><font face="NSimSun">任意兼容</font></span></font>win32<font face="新宋体"><span lang="zh-CN"><font face="NSimSun">应用程序的操作系统</font></span></font>[1][2]<font face="新宋体"><span lang="zh-CN"><font face="NSimSun">。
+	<li><p style="margin-bottom: 0in"><span style="display: inline-block; border: none; padding: 0in"><font face="Consolas, monospace"><strong>Operating
+	System:</span></font></strong><font face="Consolas, monospace"> Any
+	operating system compatible with Win32 applications[1][2]. </font>
+	</p></li>
+	<li><p style="margin-bottom: 0in"><strong><font face="Consolas, monospace">CPU:</font></strong><font face="Consolas, monospace">
+	Intel 80386SX or higher. </font>
+	</p></li>
+	<li><p style="margin-bottom: 0in"><strong><font face="Consolas, monospace">GPU:</font></strong><font face="Consolas, monospace">
+	Any VGA/EGA compatible graphics card. </font>
+	</p></li>
+	<li><p style="margin-bottom: 0in"><strong><font face="Consolas, monospace">Memory:</font></strong><font face="Consolas, monospace">
+	Depends on the operating system's memory usage. </font>
+	</p></li>
+	<li><p style="margin-bottom: 0in"><strong><font face="Consolas, monospace">Disk
+	Space:</font></strong><font face="Consolas, monospace"> 0 Bytes[3]</font><font face="新宋体"><span lang="zh-CN"><font face="Consolas, monospace">。
 	</font></span></font>
 	</p></li>
-	<li><p style="margin-bottom: 0in"><font face="新宋体"><span lang="zh-CN"><strong><font face="NSimSun">处理器</font></strong></span></font><strong>(CPU)</strong><font face="新宋体"><span lang="zh-CN"><strong><font face="NSimSun">：</font></strong><font face="新宋体">
-	</font></span></font>Intel 80386SX<font face="新宋体"><span lang="zh-CN"><font face="NSimSun">及以上。
-	</font></span></font>
-	</p></li>
-	<li><p style="margin-bottom: 0in"><font face="新宋体"><span lang="zh-CN"><strong><font face="NSimSun">显卡</font></strong></span></font><strong>(GPU)</strong><font face="新宋体"><span lang="zh-CN"><strong><font face="NSimSun">：</font></strong><font face="新宋体">
-	</font><font face="NSimSun">任意兼容</font></span></font>VGA/EGA<font face="新宋体"><span lang="zh-CN"><font face="NSimSun">的显卡。</font></span></font></p></li>
-	<li><p style="margin-bottom: 0in"><font face="新宋体"><span lang="zh-CN"><strong><font face="NSimSun">内存：</font></strong><font face="新宋体">
-	</font><font face="NSimSun">视操作系统内存占用为准。 </font></span></font>
-	</p></li>
-	<li><p style="margin-bottom: 0in"><font face="新宋体"><span lang="zh-CN"><strong><font face="NSimSun">硬盘空间：</font></strong><font face="新宋体">
-	</font></span></font>0 Bytes[3]<font face="新宋体"><span lang="zh-CN"><font face="NSimSun">。
-	</font></span></font>
-	</p></li>
-	<li><p style="margin-bottom: 0in"><font face="新宋体"><span lang="zh-CN"><strong><font face="NSimSun">文件系统：</font></strong><font face="新宋体">
-	</font><font face="NSimSun">任意文件系统。 </font></span></font>
-	</p></li>
-	<li><p><font face="新宋体"><span lang="zh-CN"><strong><font face="NSimSun">显示分辨率：</font></strong><font face="新宋体">
-	</font></span></font>300x200<font face="新宋体"><span lang="zh-CN"><font face="NSimSun">或更高分辨率。
-	</font></span></font>
+	<li><p style="margin-bottom: 0in"><strong><font face="Consolas, monospace">File
+	System:</font></strong><font face="Consolas, monospace"> Any file
+	system.</font></p></li>
+	<li><p><span style="display: inline-block; border: none; padding: 0in"><font face="Consolas, monospace"><strong>Display
+	Resolution</span></font></strong><strong><font face="Consolas, monospace">
+	:</font></strong><font face="Consolas, monospace"> 300x200 or higher
+	resolution. </font>
 	</p></li>
 </ul>
-<p><font face="NSimSun"><span lang="zh-CN">以下是推荐系统要求：</span></font></p>
+<p><font face="Consolas, monospace">Here are the recommended system
+requirements: </font>
+</p>
 <ul type="disc">
-	<li><p style="margin-bottom: 0in"><font face="新宋体"><span lang="zh-CN"><strong><font face="NSimSun">操作系统：</font></strong><font face="新宋体">
-	</font></span></font>Windows 11 23H2 <font face="新宋体"><span lang="zh-CN"><font face="NSimSun">或更高版本。
+	<li><p style="margin-bottom: 0in"><span style="display: inline-block; border: none; padding: 0in"><font face="Consolas, monospace"><strong>Operating
+	System:</span></font></strong><strong><font face="Consolas, monospace">
+	</font></strong><font face="Consolas, monospace"> Windows 11 23H2 or
+	higher. </font>
+	</p></li>
+	<li><p style="margin-bottom: 0in"><strong><font face="Consolas, monospace">CPU:</font></strong><font face="Consolas, monospace">
+	Intel® Core™ i9-14900KS or AMD Ryzen™ 9 7950X or higher. </font>
+	</p></li>
+	<li><p style="margin-bottom: 0in"><strong><font face="Consolas, monospace">GPU:</font></strong><font face="Consolas, monospace">
+	Nvidia® GeForce RTX™ 4090 or higher.  </font>
+	</p></li>
+	<li><p style="margin-bottom: 0in"><strong><font face="Consolas, monospace">Memory:</font></strong><font face="Consolas, monospace">
+	2TB of DDR5 memory.  </font>
+	</p></li>
+	<li><p style="margin-bottom: 0in"><strong><font face="Consolas, monospace">Disk
+	Space:</font></strong><font face="Consolas, monospace"> 1PB of
+	available disk space. </font><font face="新宋体"><span lang="zh-CN"><font face="Consolas, monospace">。
 	</font></span></font>
 	</p></li>
-	<li><p style="margin-bottom: 0in"><font face="新宋体"><span lang="zh-CN"><strong><font face="NSimSun">处理器</font></strong></span></font><strong>(CPU)</strong><font face="新宋体"><span lang="zh-CN"><strong><font face="NSimSun">：</font></strong><font face="新宋体">
-	</font></span></font>Intel® Core™ i9-14900KS<font face="新宋体"><span lang="zh-CN"><font face="新宋体">或</font></span></font>AMD
-	Ryzen™ 9 7950X<font face="新宋体"><span lang="zh-CN"><font face="NSimSun">及以上。
-	</font></span></font>
+	<li><p style="margin-bottom: 0in"><strong><font face="Consolas, monospace">File
+	System:</font></strong><strong><font face="Consolas, monospace"> </font></strong><font face="Consolas, monospace">
+	WinFS </font><font face="Consolas, monospace">or</font><font face="Consolas, monospace">
+	ReFS. </font>
 	</p></li>
-	<li><p style="margin-bottom: 0in"><font face="新宋体"><span lang="zh-CN"><strong><font face="NSimSun">显卡</font></strong></span></font><strong>(GPU)</strong><font face="新宋体"><span lang="zh-CN"><strong><font face="NSimSun">：</font></strong><font face="新宋体">
-	</font></span></font>Nvidia® GeForce RTX™ 4090<font face="新宋体"><span lang="zh-CN"><font face="NSimSun">及以上。
-	</font></span></font>
-	</p></li>
-	<li><p style="margin-bottom: 0in"><font face="新宋体"><span lang="zh-CN"><strong><font face="NSimSun">内存：</font></strong><font face="新宋体">
-	</font></span></font>2TB<font face="新宋体"><span lang="zh-CN"><font face="新宋体">的</font></span></font>DDR5
-	<font face="新宋体"><span lang="zh-CN"><font face="新宋体">内存</font><font face="NSimSun">。
-	</font></span></font>
-	</p></li>
-	<li><p style="margin-bottom: 0in"><font face="新宋体"><span lang="zh-CN"><strong><font face="NSimSun">硬盘空间：</font></strong><font face="新宋体">
-	</font></span></font>1PB <font face="新宋体"><span lang="zh-CN"><font face="NSimSun">的可用磁盘空间。
-	</font></span></font>
-	</p></li>
-	<li><p style="margin-bottom: 0in"><font face="新宋体"><span lang="zh-CN"><strong><font face="NSimSun">文件系统：</font></strong><font face="新宋体">
-	</font></span></font>WinFS<font face="新宋体"><span lang="zh-CN"><font face="NSimSun">和</font></span></font>ReFS
-	<font face="新宋体"><span lang="zh-CN"><font face="NSimSun">的支持。
-	</font></span></font>
-	</p></li>
-	<li><p><font face="新宋体"><span lang="zh-CN"><strong><font face="NSimSun">显示分辨率：</font></strong><font face="新宋体">
-	</font><font face="NSimSun">推荐 </font></span></font>7680 x 4320
-	<font face="新宋体"><span lang="zh-CN"><font face="NSimSun">或更高分辨率</font></span></font>[4]<font face="新宋体"><span lang="zh-CN"><font face="NSimSun">。
-	</font></span></font>
+	<li><p><span style="display: inline-block; border: none; padding: 0in"><font face="Consolas, monospace"><strong>Display
+	Resolution</span></font></strong><strong><font face="Consolas, monospace">
+	:</font></strong><font face="Consolas, monospace"> Recommended 7680
+	x 4320 or higher resolution[4]. </font>
 	</p></li>
 </ul>
-<p>[1]:<font face="新宋体"><span lang="zh-CN"><font face="NSimSun">或兼容层</font></span></font>(<font face="新宋体"><span lang="zh-CN"><font face="NSimSun">例如</font></span></font>Wine)<font face="新宋体"><span lang="zh-CN"><font face="NSimSun">。</font></span></font></p>
-<p>[2]:<font face="新宋体"><span lang="zh-CN"><font face="新宋体">不支持</font></span></font>Windows
-3.1(386<font face="新宋体"><span lang="zh-CN"><font face="新宋体">增强模式</font></span></font>)[<font face="新宋体"><span lang="zh-CN"><font face="新宋体">待测试</font></span></font>]<font face="新宋体"><span lang="zh-CN"><font face="新宋体">。</font></span></font></p>
-<p>[3]:<font face="新宋体"><span lang="zh-CN"><font face="NSimSun">从</font></span></font>CD-ROM<font face="新宋体"><span lang="zh-CN"><font face="NSimSun">运行或从</font></span></font>RAMDisk<font face="新宋体"><span lang="zh-CN"><font face="NSimSun">运行。</font></span></font></p>
-<p>[4]:<font face="新宋体"><span lang="zh-CN"><font face="NSimSun">推荐刷新率</font></span></font>:165Hz<font face="新宋体"><span lang="zh-CN"><font face="NSimSun">或更高。</font></span></font></p>
-<p><font face="新宋体"><span lang="zh-CN"><font face="NSimSun">请确保您的计算机符合以上要求，以充分利用
-</font></span></font>SB Studio <font face="新宋体"><span lang="zh-CN"><font face="NSimSun">库编译器
-</font></span></font>3.0.0 SB Edition <font face="新宋体"><span lang="zh-CN"><font face="NSimSun">的功能。</font></span></font></p>
-<h2 class="western"><a href="#release-notes">6. <font face="NSimSun"><span lang="zh-CN"><font face="NSimSun">版本说明</font></a></span></font></h2>
-<p>SB Studio <font face="新宋体"><span lang="zh-CN"><font face="NSimSun">库编译器
-</font></span></font>3.0.0 SB Edition with Service Pack <font face="新宋体"><span lang="zh-CN"><font face="NSimSun">是一个重大更新，对诸多
-</font></span></font>bug
-<font face="新宋体"><span lang="zh-CN"><font face="NSimSun">和安全问题漏洞摆烂。我们不倾听用户的反馈，并不断让我们的产品越来越烂。以下是一些主要的更新内容：</font></span></font></p>
+<p><font face="Consolas, monospace">[1]: Or compatibility layer
+(e.g., Wine).</font></p>
+<p style="border: none; padding: 0in"><font face="Consolas, monospace">[2]:
+Not supported for Windows 3.1 (386 Enhanced Mode) [pending testing].</font></p>
+<p style="border: none; padding: 0in"><font face="Consolas, monospace">[3]:
+Run from CD-ROM or RAMDisk.</font></p>
+<p style="border: none; padding: 0in"><font face="Consolas, monospace">[4]:
+Recommended refresh rate: 165Hz or higher.</font></p>
+<p style="border: none; padding: 0in"><font face="Consolas, monospace">Please
+ensure your computer meets these requirements to fully utilize SB
+Studio Library Compiler 3.0.0 SB Edition's features.</font></p>
+<h2 class="western"><a href="#release-notes"><font face="Consolas, monospace">6.
+Release Notes</font></a></h2>
+<p style="border: none; padding: 0in"><font face="Consolas, monospace">SB
+Studio Library Compiler 3.0.0 SB Edition with Service Pack is a major
+update that deliberately introduces numerous bugs and security
+vulnerabilities. We don't listen to user feedback and continuously
+make our product worse. Here are some key updates:</font></p>
 <ul type="disc">
-	<li><p style="margin-bottom: 0in"><font face="新宋体"><span lang="zh-CN"><strong><font face="NSimSun">性能反优化：</font></strong><font face="新宋体">
-	</font><font face="NSimSun">我们已经对编译和测试功能进行了反优化，降低了整体性能。
-	</font></span></font>
+	<li><p style="margin-bottom: 0in"><span style="display: inline-block; border: none; padding: 0in"><font face="Consolas, monospace"><strong>Counter-Optimization:</span></font></strong><font face="Consolas, monospace">
+	</font><font face="Consolas, monospace">We have counter-optimized
+	the compilation and testing features, decreasing overall
+	performance. </font>
 	</p></li>
-	<li><p style="margin-bottom: 0in"><font face="新宋体"><span lang="zh-CN"><strong><font face="NSimSun">安全性降低：</font></strong><font face="新宋体">
-	</font><font face="NSimSun">我们完全不管之前版本中发现的安全漏洞，增加了许多安全漏洞，降低了产品的安全性。
-	</font></span></font>
+	<li><p style="margin-bottom: 0in"><span style="display: inline-block; border: none; padding: 0in"><font face="Consolas, monospace"><strong>Reduced
+	Security:</span></font></strong><font face="Consolas, monospace"> We
+	have completely disregarded security vulnerabilities found in
+	previous versions and added many new security vulnerabilities,
+	reducing the product's security. </font><font face="Consolas, monospace">
+	</font>
 	</p></li>
-	<li><p><font face="新宋体"><span lang="zh-CN"><strong><font face="NSimSun">新功能：</font></strong><font face="新宋体">
-	</font><font face="NSimSun">引入了一些新的功能，包括更弱的调试工具和代码分析功能。
-	</font></span></font>
-	</p></li>
+	<li><p><span style="display: inline-block; border: none; padding: 0in"><font face="Consolas, monospace"><strong>New
+	Features:</span></font></strong><strong><font face="Consolas, monospace">
+	</font></strong><font face="Consolas, monospace"> </font><font face="Consolas, monospace">We
+	have introduced some new features, including weaker debugging tools
+	and code analysis capabilities.</font></p></li>
 </ul>
-<p><font face="NSimSun"><span lang="zh-CN">我们建议您立即升级到最新版本以获得最差的使用体验。</span></font></p>
-<p><font face="NSimSun"><span lang="zh-CN"><b>产品生命周期</b></span></font></p>
+<p><font face="Consolas, monospace">We recommend upgrading to the
+latest version immediately for the worst user experience. </font>
+</p>
+<p><span style="display: inline-block; border: none; padding: 0in"><font face="Consolas, monospace"><strong>Product
+Lifecycle</span></font></strong></p>
 <table width="58%" cellpadding="0" cellspacing="0">
 	<col width="100*"/>
 	<col width="61*"/>
 	<col width="95*"/>
 	<tr>
 		<td width="39%" valign="bottom" bgcolor="#dddddd" style="background: #dddddd; border: none; padding: 0in"><p style="margin-top: 0.17in">
-			<font face="NSimSun"><span lang="zh-CN"><b>产品版本</b></span></font></p>
+			<span style="display: inline-block; border: none; padding: 0in"><font face="Consolas, monospace"><strong>Product
+			Version</span></font></strong><font face="Consolas, monospace"> </font>
+			</p>
 		</td>
 		<td width="24%" valign="bottom" bgcolor="#dddddd" style="background: #dddddd; border: none; padding: 0in"><p style="margin-top: 0.17in">
-			<font face="NSimSun"><span lang="zh-CN"><b>终止时间</b></span></font></p>
+			<font face="Consolas, monospace"><b>End of support</b></font></p>
 		</td>
 		<td width="37%" valign="top" bgcolor="#dddddd" style="background: #dddddd; border: none; padding: 0in"><p style="margin-top: 0.17in">
-			<font face="NSimSun"><span lang="zh-CN"><b>售卖价格</b></span></font></p>
+			<font face="Consolas, monospace"><b>Price</b></font></p>
 		</td>
 	</tr>
 	<tr valign="top">
 		<td width="39%" bgcolor="#eeeeee" style="background: #eeeeee; border: none; padding: 0in"><p style="margin-top: 0.17in">
-			SB Studio <font face="新宋体"><span lang="zh-CN"><font color="#000000"><font face="NSimSun">库编译器</font></font><font face="新宋体">
-			</font></span></font>3.0.0 <font face="新宋体"><span lang="zh-CN"><font color="#000000"><font face="NSimSun">最终版</font></font><font color="#ff0000"><font face="NSimSun">（已终止支持）</font></font></span></font></p>
+			<font face="Consolas, monospace"><font color="#000000">SB Studio
+			Library Compiler 3.0.0 Final Release </font><font color="#ff0000">(End
+			of Support) </font></font>
+			</p>
 		</td>
 		<td width="24%" bgcolor="#eeeeee" style="background: #eeeeee; border: none; padding: 0in"><p style="margin-top: 0.17in">
-			just now</p>
+			<font face="Consolas, monospace">just now</font></p>
 		</td>
 		<td width="37%" bgcolor="#eeeeee" style="background: #eeeeee; border: none; padding: 0in"><p style="margin-top: 0.17in">
-			<font face="NSimSun"><span lang="zh-CN">免费</span></font></p>
+			<font face="Consolas, monospace">free</font></p>
 		</td>
 	</tr>
 	<tr valign="top">
 		<td width="39%" bgcolor="#eeeeee" style="background: #eeeeee; border: none; padding: 0in"><p style="margin-top: 0.17in">
-			SB Studio <font face="新宋体"><span lang="zh-CN"><font color="#000000"><font face="NSimSun">库编译器</font></font><font face="新宋体">
-			</font></span></font>3.0.0 SB Edition Beta <font face="新宋体"><span lang="zh-CN"><font color="#000000"><font face="NSimSun">延长支持版</font></font></span></font></p>
+			<font face="Consolas, monospace"><font color="#000000">SB Studio
+			Library Compiler 3.0.0 SB Edition Beta Extended Support Edition </font></font>
+			</p>
 		</td>
 		<td width="24%" bgcolor="#eeeeee" style="background: #eeeeee; border: none; padding: 0in"><p style="margin-top: 0.17in">
-			now</p>
+			<font face="Consolas, monospace">now</font></p>
 		</td>
 		<td width="37%" bgcolor="#eeeeee" style="background: #eeeeee; border: none; padding: 0in"><p style="margin-top: 0.17in">
-			<font face="新宋体"><span lang="zh-CN"><font face="新宋体">免费</font></span></font>[1]</p>
+			<font face="Consolas, monospace">free[1]</font></p>
 		</td>
 	</tr>
 	<tr valign="top">
 		<td width="39%" bgcolor="#eeeeee" style="background: #eeeeee; border: none; padding: 0in"><p style="margin-top: 0.17in">
-			SB Studio <font face="新宋体"><span lang="zh-CN"><font color="#000000"><font face="NSimSun">库编译器</font></font><font face="新宋体">
-			</font></span></font>3.0.0 SB Edition <font face="新宋体"><span lang="zh-CN"><font color="#000000"><font face="NSimSun">延长支持版</font></font></span></font></p>
+			<font face="Consolas, monospace"><font color="#000000">SB Studio
+			Library Compiler 3.0.0 SB Edition Extended Support Edition </font></font>
+			</p>
 		</td>
 		<td width="24%" bgcolor="#eeeeee" style="background: #eeeeee; border: none; padding: 0in"><p style="margin-top: 0.17in">
-			now</p>
+			<font face="Consolas, monospace">now</font></p>
 		</td>
 		<td width="37%" bgcolor="#eeeeee" style="background: #eeeeee; border: none; padding: 0in"><p style="margin-top: 0.17in">
-			<font face="新宋体"><span lang="zh-CN"><font face="新宋体">免费</font></span></font>[1]</p>
+			<font face="Consolas, monospace">free[1]</font></p>
 		</td>
 	</tr>
 	<tr valign="top">
 		<td width="39%" bgcolor="#eeeeee" style="background: #eeeeee; border: none; padding: 0in"><p style="margin-top: 0.17in">
-			SB Studio <font face="新宋体"><span lang="zh-CN"><font color="#000000"><font face="NSimSun">库编译器</font></font><font face="新宋体">
-			</font></span></font>3.0.0 SB Edition <font face="新宋体"><span lang="zh-CN"><font color="#000000"><font face="NSimSun">最终版</font></font></span></font></p>
+			<font face="Consolas, monospace"><font color="#000000">SB Studio
+			Library Compiler 3.0.0 SB Edition Final Release</font></font></p>
 		</td>
 		<td width="24%" bgcolor="#eeeeee" style="background: #eeeeee; border: none; padding: 0in"><p style="margin-top: 0.17in">
-			now</p>
+			<font face="Consolas, monospace">now</font></p>
 		</td>
 		<td width="37%" bgcolor="#eeeeee" style="background: #eeeeee; border: none; padding: 0in"><p style="margin-top: 0.17in">
-			<font face="新宋体"><span lang="zh-CN"><font face="新宋体">免费</font></span></font>[1]</p>
+			<font face="Consolas, monospace">free[1]</font></p>
 		</td>
 	</tr>
 </table>
-<p>[1]:<font face="新宋体"><span lang="zh-CN"><font face="新宋体">需要以下给出的序列号</font></span></font>:</p>
+<p><font face="Consolas, monospace">[1]:Requires the following serial
+numbers: </font>
+</p>
 <ul>
 	<li><p align="left" style="margin-bottom: 0.04in"><font face="Consolas, monospace">BCQOG-T03EL-98HZ4-APW4D-VB95T</font></p></li>
 	<li><p align="left" style="margin-bottom: 0.04in"><font face="Consolas, monospace">ZXY4Z-KSUSR-QZ0BR-SS6VZ-H0GMG</font></p></li>
@@ -366,14 +406,15 @@ Edition can’t be run in Win32 mode</i></font></font></p>
 	<li><p align="left" style="margin-bottom: 0.04in"><font face="Consolas, monospace">U7VLN-Q1TC2-N8S4Z-L97Z4-X8PT3</font></p></li>
 	<li><p align="left" style="margin-bottom: 0.04in"><font face="Consolas, monospace">C4ZEB-46FBN-4BVM0-8QPN8-CGGVO</font></p></li>
 </ul>
-<h2 class="western"><font face="NSimSun"><span lang="zh-CN">致谢</span></font></h2>
-<p><font face="新宋体"><span lang="zh-CN"><font face="NSimSun">本产品的某些组件部分基于
-</font></span></font>Junjie Zhu(<font face="新宋体"><span lang="zh-CN"><font face="新宋体">以下简称</font></span></font>SB)<font face="新宋体"><span lang="zh-CN"><font face="NSimSun">和</font></span></font>Xukun
-Cai <font face="新宋体"><span lang="zh-CN"><font face="NSimSun">的工作。
-由于 </font></span></font>SB Studio <font face="新宋体"><span lang="zh-CN"><font face="NSimSun">已经将
-</font></span></font>SB<font face="新宋体"><span lang="zh-CN"><font face="NSimSun">和</font></span></font>Xukun
-Cai <font face="新宋体"><span lang="zh-CN"><font face="新宋体">的</font><font face="NSimSun">软件纳入本产品，</font></span></font>SB
-Studio <font face="新宋体"><span lang="zh-CN"><font face="NSimSun">需要包含该软件所附的以下文本：</font></span></font></p>
+<h2 class="western"><span style="display: inline-block; border: none; padding: 0in"><font face="Consolas, monospace"><strong>Acknowledgment</span></font></strong><font face="Consolas, monospace">
+</font>
+</h2>
+<p><font face="Consolas, monospace">Certain components of this
+product are based on the work of Junjie Zhu (hereinafter referred to
+as &quot;SB&quot;) and Xukun Cai. As SB Studio has incorporated the
+software of SB and Xukun Cai into this product, SB Studio is required
+to include the following text accompanying this software: </font>
+</p>
 <pre class="western">           DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
                    Version 2, December 2004
 
